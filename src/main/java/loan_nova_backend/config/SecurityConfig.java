@@ -71,8 +71,9 @@ public class SecurityConfig {
 
         configuration.setAllowedOrigins(Arrays.asList(
             "https://loan-nova.vercel.app",
-            "http://localhost:8080",
-            "http://localhost:3000"
+           // "http://localhost:8080",
+           // "http://localhost:3000"
+              "http://localhost:*"
         ));
 
         configuration.setAllowedMethods(Arrays.asList(
